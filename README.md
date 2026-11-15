@@ -65,3 +65,20 @@ CSS 스타일 3곳 이상 변경
 
     배경 및 글자 다크모드로 수정(배경/제목/글자 수정)
     -> src/App.css (3~6번 줄 추가)
+
+---
+
+Course Registration (Create) : 과목 추가 기능
+
+    CourseList.jsx의 handleAdd에서 trim으로 빈 입력을 막고 새 과목을 courses 배열에 추가한 뒤 newName을 초기화
+    -> src/components/CourseList.jsx (18~24번 줄)
+
+Course Completion (Update) : 과목 완료 상태 변경 기능
+
+    CourseList.jsx의 handleToggle에서 map과 spread로 해당 id의 completed 값을 반전해 상태와 화면을 갱신
+    -> src/components/CourseList.jsx (27~31번 줄)
+
+과목명 검색 기능 (선택 기능)
+
+    search 상태를 추가하고 filter로 검색어가 포함된 과목만 추려서 목록에 표시
+    -> src/components/CourseList.jsx (9, 34, 50~55번 줄)
