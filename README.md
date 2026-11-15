@@ -1,3 +1,15 @@
+프로젝트 소개
+일정 관리 프로젝트
+
+install
+
+    Node.js 20.19+ 또는 22.12+ 권장.
+    npm install
+    npm run dev
+    브라우저에 표시되는 Local URL에 접속하세요. 빌드 테스트: npm run build.
+
+---
+
 Project Structure: 주요 파일 3개의 역할
 
     App.jsx : 전체 레이아웃 및 컴포넌트 호출
@@ -82,3 +94,10 @@ Course Completion (Update) : 과목 완료 상태 변경 기능
 
     search 상태를 추가하고 filter로 검색어가 포함된 과목만 추려서 목록에 표시
     -> src/components/CourseList.jsx (9, 34, 50~55번 줄)
+
+---
+
+week review
+react css 수정 방법
+crud 짧은 코드 구현
+전체적인 웹사이트 스타일링
