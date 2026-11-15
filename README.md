@@ -45,3 +45,23 @@ Code Analysis: 주요 코드 2개(각 5~15줄)를 선택하여 동작 원리 설
       </div>
 
       부모로부터 받은 course.complented를 checked에 바인드해 체크 상태를 동기화하고 Onchange로 부모의 ontoggle를 호출
+
+---
+
+초기 과목 데이터를 자신이 선택한 과목 5개 이상으로 변경
+
+    English Reading and Composition / English
+    추가
+    -> src/data/courses.js (8번 줄 추가)
+
+프로젝트 제목 및 설명 변경
+
+    My course Manager -> Course Manager
+
+    React Component, Props & State Practice -> insang suaop
+    -> src/App.jsx (7번 줄 변경)
+
+CSS 스타일 3곳 이상 변경
+
+    배경 및 글자 다크모드로 수정(배경/제목/글자 수정)
+    -> src/App.css (3~6번 줄 추가)
